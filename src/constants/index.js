@@ -129,6 +129,95 @@ export const featuresHealth = [
   },
 ];
 
+export const featuresBusiness = [
+  {
+    id: "feature-1",
+    icon: star,
+    title: "e-Tontine",
+    content:
+      "The best credit cards offer some tantalizing combinations of promotions and prizes",
+  },
+  {
+    id: "feature-2",
+    icon: shield,
+    title: "Shop",
+    content:
+      "We take proactive steps make sure your information and transactions are secure.",
+  },
+  {
+    id: "feature-3",
+    icon: send,
+    title: "Location & reservation",
+    content:
+      "A balance transfer credit card can save you a lot of money in interest charges.",
+  },
+  {
+    id: "feature-4",
+    icon: star,
+    title: "Delivery",
+    content:
+      "A balance transfer credit card can save you a lot of money in interest charges.",
+  },
+  {
+    id: "feature-5",
+    icon: shield,
+    title: "Travel agency",
+    content:
+      "A balance transfer credit card can save you a lot of money in interest charges.",
+  },
+  {
+    id: "feature-6",
+    icon: send,
+    title: "Wedding planner",
+    content:
+      "A balance transfer credit card can save you a lot of money in interest charges.",
+  },
+];
+
+export const featuresTrade = [
+  {
+    id: "feature-1",
+    icon: star,
+    title: "BG-Wallet",
+    content:
+      "The best credit cards offer some tantalizing combinations of promotions and prizes",
+  },
+  {
+    id: "feature-2",
+    icon: shield,
+    title: "Consulting",
+    content:
+      "We take proactive steps make sure your information and transactions are secure.",
+  },
+  {
+    id: "feature-3",
+    icon: send,
+    title: "Bill pay",
+    content:
+      "A balance transfer credit card can save you a lot of money in interest charges.",
+  },
+  {
+    id: "feature-4",
+    icon: star,
+    title: "API",
+    content:
+      "A balance transfer credit card can save you a lot of money in interest charges.",
+  },
+  {
+    id: "feature-5",
+    icon: shield,
+    title: "Smart Contract",
+    content:
+      "A balance transfer credit card can save you a lot of money in interest charges.",
+  },
+  {
+    id: "feature-6",
+    icon: send,
+    title: "Price tracking",
+    content:
+      "A balance transfer credit card can save you a lot of money in interest charges.",
+  },
+];
 
 export const feedback = [
   {
