@@ -3,15 +3,11 @@ import { people01, people02, people03, facebook, instagram, linkedin, twitter, a
 export const navLinks = [
   {
     id: "home",
-    title: "Home",
+    title: "Accueil",
   },
   {
     id: "features",
-    title: "Features",
-  },
-  {
-    id: "product",
-    title: "Product",
+    title: "Nos solutions",
   },
   {
     id: "clients",
@@ -42,6 +38,97 @@ export const features = [
       "A balance transfer credit card can save you a lot of money in interest charges.",
   },
 ];
+
+export const featuresEducation = [
+  {
+    id: "feature-1",
+    icon: star,
+    title: "Global School",
+    content:
+      "The best credit cards offer some tantalizing combinations of promotions and prizes",
+  },
+  {
+    id: "feature-2",
+    icon: shield,
+    title: "Parent Control",
+    content:
+      "We take proactive steps make sure your information and transactions are secure.",
+  },
+  {
+    id: "feature-3",
+    icon: send,
+    title: "e-Learning",
+    content:
+      "A balance transfer credit card can save you a lot of money in interest charges.",
+  },
+  {
+    id: "feature-4",
+    icon: star,
+    title: "Coding Challenge",
+    content:
+      "A balance transfer credit card can save you a lot of money in interest charges.",
+  },
+  {
+    id: "feature-5",
+    icon: shield,
+    title: "News",
+    content:
+      "A balance transfer credit card can save you a lot of money in interest charges.",
+  },
+  {
+    id: "feature-6",
+    icon: send,
+    title: "Blockchain & Defi",
+    content:
+      "A balance transfer credit card can save you a lot of money in interest charges.",
+  },
+];
+
+export const featuresHealth = [
+  {
+    id: "feature-1",
+    icon: star,
+    title: "Health care",
+    content:
+      "The best credit cards offer some tantalizing combinations of promotions and prizes",
+  },
+  {
+    id: "feature-2",
+    icon: shield,
+    title: "Hospital",
+    content:
+      "We take proactive steps make sure your information and transactions are secure.",
+  },
+  {
+    id: "feature-3",
+    icon: send,
+    title: "e-Health",
+    content:
+      "A balance transfer credit card can save you a lot of money in interest charges.",
+  },
+  {
+    id: "feature-4",
+    icon: star,
+    title: "Traditional medecine",
+    content:
+      "A balance transfer credit card can save you a lot of money in interest charges.",
+  },
+  {
+    id: "feature-5",
+    icon: shield,
+    title: "Sport",
+    content:
+      "A balance transfer credit card can save you a lot of money in interest charges.",
+  },
+  {
+    id: "feature-6",
+    icon: send,
+    title: "Tourism",
+    content:
+      "A balance transfer credit card can save you a lot of money in interest charges.",
+  },
+];
+
 
 export const feedback = [
   {
@@ -74,17 +161,17 @@ export const stats = [
   {
     id: "stats-1",
     title: "User Active",
-    value: "3800+",
+    value: "1000+",
   },
   {
     id: "stats-2",
     title: "Trusted by Company",
-    value: "230+",
+    value: "10+",
   },
   {
     id: "stats-3",
     title: "Transaction",
-    value: "$230M+",
+    value: "$10000+",
   },
 ];
 
@@ -94,23 +181,23 @@ export const footerLinks = [
     links: [
       {
         name: "Content",
-        link: "https://www.hoobank.com/content/",
+        link: "https://www.boomgtech.com/content/",
       },
       {
         name: "How it Works",
-        link: "https://www.hoobank.com/how-it-works/",
+        link: "https://www.boomgtech.com/how-it-works/",
       },
       {
         name: "Create",
-        link: "https://www.hoobank.com/create/",
+        link: "https://www.boomgtech.com/create/",
       },
       {
         name: "Explore",
-        link: "https://www.hoobank.com/explore/",
+        link: "https://www.boomgtech.com/explore/",
       },
       {
         name: "Terms & Services",
-        link: "https://www.hoobank.com/terms-and-services/",
+        link: "https://www.boomgtech.com/terms-and-services/",
       },
     ],
   },
@@ -119,23 +206,23 @@ export const footerLinks = [
     links: [
       {
         name: "Help Center",
-        link: "https://www.hoobank.com/help-center/",
+        link: "https://www.boomgtech.com/help-center/",
       },
       {
         name: "Partners",
-        link: "https://www.hoobank.com/partners/",
+        link: "https://www.boomgtech.com/partners/",
       },
       {
         name: "Suggestions",
-        link: "https://www.hoobank.com/suggestions/",
+        link: "https://www.boomgtech.com/suggestions/",
       },
       {
         name: "Blog",
-        link: "https://www.hoobank.com/blog/",
+        link: "https://www.boomgtech.com/blog/",
       },
       {
         name: "Newsletters",
-        link: "https://www.hoobank.com/newsletters/",
+        link: "https://www.boomgtech.com/newsletters/",
       },
     ],
   },
@@ -144,11 +231,11 @@ export const footerLinks = [
     links: [
       {
         name: "Our Partner",
-        link: "https://www.hoobank.com/our-partner/",
+        link: "https://www.boomgtech.com/our-partner/",
       },
       {
         name: "Become a Partner",
-        link: "https://www.hoobank.com/become-a-partner/",
+        link: "https://www.boomgtech.com/become-a-partner/",
       },
     ],
   },
