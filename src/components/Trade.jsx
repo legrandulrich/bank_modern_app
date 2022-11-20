@@ -26,12 +26,6 @@ const FeatureCard = ({ icon, title, content, index }) => (
 
 const Trade = () => (
   <section id="featuresTrade" className={layout.section}>
-    <div className={`${layout.sectionImg} flex-col`}>
-      {featuresTrade.map((feature, index) => (
-        <FeatureCard key={feature.id} {...feature} index={index} />
-      ))}
-    </div>
-    
     <div className={layout.sectionInfo}>
       <h2 className={styles.heading2}>BoomG Business</h2>
       <p className={`${styles.paragraph} max-w-[470px] mt-5`}>
@@ -43,7 +37,11 @@ const Trade = () => (
       <Button styles={`mt-10`} />
     </div>
 
-    
+    <div className={`${layout.sectionImg} flex-col`}>
+      {featuresTrade.map((feature, index) => (
+        <FeatureCard key={feature.id} {...feature} index={index} />
+      ))}
+    </div>
   </section>
 );
 
